@@ -1,11 +1,17 @@
+$paragraph_color: green;
 body * {
   box-sizing: border-box;
 }
 .top {
+    text-align: right;
   :hover {
-    background-color : red;
+    background-color: red;
     color: white;
     text-align: center;
 
+  }
+  p {
+    line-height: 15px;
+    color: $paragraph_color;
   }
 }

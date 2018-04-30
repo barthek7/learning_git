@@ -2,10 +2,17 @@ body * {
   box-sizing: border-box;
 }
 
+.top {
+  text-align: right;
+}
 .top :hover {
   background-color: red;
   color: white;
   text-align: center;
+}
+.top p {
+  line-height: 15px;
+  color: green;
 }
 
 /*# sourceMappingURL=style.css.map */
