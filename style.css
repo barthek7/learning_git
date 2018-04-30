@@ -1,0 +1,11 @@
+body * {
+  box-sizing: border-box;
+}
+
+.top :hover {
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
