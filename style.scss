@@ -3,15 +3,21 @@ body * {
   box-sizing: border-box;
 }
 .top {
-    text-align: right;
+  text-align: center;
   :hover {
     background-color: red;
     color: white;
-    text-align: center;
-
   }
   p {
     line-height: 15px;
     color: $paragraph_color;
+  }
+}
+.image {
+  text-align: center;
+  img {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
   }
 }
